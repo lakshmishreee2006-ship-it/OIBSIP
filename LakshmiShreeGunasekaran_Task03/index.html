@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+       <h1>Temperature Converter</h1>
+<p class="subtitle">Convert temperatures instantly between Celsius and Fahrenheit</p>
+        <input
+    type="number"
+    id="temperature"
+    placeholder="e.g. 25"
+/>
+
+        <select id="unit">
+
+            <option value="celsius">
+                Celsius to Fahrenheit
+            </option>
+
+            <option value="fahrenheit">
+                Fahrenheit to Celsius
+            </option>
+
+        </select>
+
+        <button onclick="convertTemperature()">
+            Convert
+        </button>
+
+        <h2 id="result"></h2>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
